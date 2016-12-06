@@ -1,0 +1,215 @@
+@import "partials/variables";
+
+// HEADER
+
+header {
+  background-color: $beige;
+  overflow: hidden;
+  .logo img {
+    height: 30px;
+    float: left;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+  }
+  nav img {
+    height: 30px;
+    float: right;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+  }
+  input {
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+}
+
+// MAIN
+
+main {
+  padding: 20px 0;
+}
+
+input {
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+h1 {
+  color: $green;
+  margin-left: 5px;
+}
+
+aside {
+  float: left;
+  margin-left: 2%;
+  width: 33%;
+}
+
+aside input {
+  margin-top: 5px;
+  margin-left: 0;
+}
+
+aside a {
+  display: block;
+  color: $green;
+  text-decoration: none;
+}
+
+aside a:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+.book-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  float: left;
+  // width: 65%;
+}
+
+.book {
+  overflow: hidden;
+  width: 33.33%;
+  img {
+    float: left;
+    width: 48%;
+    margin-left: 2%;
+    margin-bottom: 10px;
+  }
+  .info {
+    float: left;
+    width: 48%;
+    margin-left: 2%;
+    a {
+      color: $green;
+    }
+  }
+}
+
+.container {
+  max-width: 1200px;
+  // background-color: #eee;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+// SECTION
+
+section {
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 10px;
+    h2 {
+      color: $green;
+    }
+    a {
+      display: block;
+      color: $green;
+      padding: 5px;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: green;
+    }
+    .bookshelves-section {
+      float: left;
+      width: 48%;
+      margin: 1%;
+    }
+    .tools-section {
+      float: left;
+      width: 48%;
+      margin: 1%;
+    }
+
+}
+
+// FOOTER
+
+footer {
+  background-color: $beige;
+  padding: 10px;
+  text-align: center;
+  .footer-links {
+    margin-bottom: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: $green;
+    padding: 0 3px;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: green;
+  }
+  h3 {
+    margin: 0;
+    font-size: 14px;
+    color: darkgrey;
+  }
+}
+
+@media (max-width: 600px) {
+  .bookshelves-section {
+    width: 98%;
+  }
+  .tools-section {
+    width: 98%;
+  }
+  .book {
+    overflow: hidden;
+    width: 98%;
+    }
+  header {
+    input {
+      display: none;
+    }
+  }
+  aside {
+    display: none;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .bookshelves-section {
+    display: none;
+  }
+  .tools-section {
+    display: none;
+  }
+  .book {
+    overflow: hidden;
+    width: 48%;
+  }
+  main {
+    input {
+      display: none;
+    }
+  }
+  aside {
+    width: 33.33%;
+    float: left;
+    margin: 0;
+  }
+  .book-flex {
+    float: right;
+    width: 66.66%;
+  }
+}
+
+@media (min-width: 901px) {
+  aside {
+    display: none;
+    }
+  main {
+    input {
+      display: none;
+    }
+  }
+   }

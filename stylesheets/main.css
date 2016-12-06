@@ -1,0 +1,162 @@
+header {
+  background-color: #F4F1EA;
+  overflow: hidden; }
+  header .logo img {
+    height: 30px;
+    float: left;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px; }
+  header nav img {
+    height: 30px;
+    float: right;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px; }
+  header input {
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px; }
+
+main {
+  padding: 20px 0; }
+
+input {
+  margin-top: 20px;
+  margin-left: 5px; }
+
+h1 {
+  color: #00635D;
+  margin-left: 5px; }
+
+aside {
+  float: left;
+  margin-left: 2%;
+  width: 33%; }
+
+aside input {
+  margin-top: 5px;
+  margin-left: 0; }
+
+aside a {
+  display: block;
+  color: #00635D;
+  text-decoration: none; }
+
+aside a:hover {
+  text-decoration: underline;
+  color: green; }
+
+.book-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  float: left; }
+
+.book {
+  overflow: hidden;
+  width: 33.33%; }
+  .book img {
+    float: left;
+    width: 48%;
+    margin-left: 2%;
+    margin-bottom: 10px; }
+  .book .info {
+    float: left;
+    width: 48%;
+    margin-left: 2%; }
+    .book .info a {
+      color: #00635D; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+section {
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 10px; }
+  section h2 {
+    color: #00635D; }
+  section a {
+    display: block;
+    color: #00635D;
+    padding: 5px;
+    text-decoration: none; }
+  section a:hover {
+    text-decoration: underline;
+    color: green; }
+  section .bookshelves-section {
+    float: left;
+    width: 48%;
+    margin: 1%; }
+  section .tools-section {
+    float: left;
+    width: 48%;
+    margin: 1%; }
+
+footer {
+  background-color: #F4F1EA;
+  padding: 10px;
+  text-align: center; }
+  footer .footer-links {
+    margin-bottom: 10px; }
+  footer a {
+    text-decoration: none;
+    color: #00635D;
+    padding: 0 3px; }
+  footer a:hover {
+    text-decoration: underline;
+    color: green; }
+  footer h3 {
+    margin: 0;
+    font-size: 14px;
+    color: darkgrey; }
+
+@media (max-width: 600px) {
+  .bookshelves-section {
+    width: 98%; }
+
+  .tools-section {
+    width: 98%; }
+
+  .book {
+    overflow: hidden;
+    width: 98%; }
+
+  header input {
+    display: none; }
+
+  aside {
+    display: none; } }
+@media (min-width: 601px) and (max-width: 900px) {
+  .bookshelves-section {
+    display: none; }
+
+  .tools-section {
+    display: none; }
+
+  .book {
+    overflow: hidden;
+    width: 48%; }
+
+  main input {
+    display: none; }
+
+  aside {
+    width: 33.33%;
+    float: left;
+    margin: 0; }
+
+  .book-flex {
+    float: right;
+    width: 66.66%; } }
+@media (min-width: 901px) {
+  aside {
+    display: none; }
+
+  main input {
+    display: none; } }
+
+/*# sourceMappingURL=main.css.map */
