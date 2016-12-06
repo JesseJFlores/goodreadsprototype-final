@@ -27,7 +27,7 @@ input {
 
 h1 {
   color: #00635D;
-  margin-left: 5px; }
+  text-align: center; }
 
 aside {
   float: left;
@@ -115,10 +115,13 @@ footer {
     color: darkgrey; }
 
 @media (max-width: 600px) {
-  .bookshelves-section {
+  main h1 {
+    text-align: left; }
+
+  section .bookshelves-section {
     width: 98%; }
 
-  .tools-section {
+  section .tools-section {
     width: 98%; }
 
   .book {

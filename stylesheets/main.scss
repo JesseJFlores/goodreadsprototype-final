@@ -35,11 +35,14 @@ main {
 input {
   margin-top: 20px;
   margin-left: 5px;
+
+
 }
 
 h1 {
   color: $green;
-  margin-left: 5px;
+  // margin-left: 5px;
+  text-align: center;
 }
 
 aside {
@@ -156,12 +159,22 @@ footer {
 }
 
 @media (max-width: 600px) {
+  main {
+    h1 {
+      text-align: left;
+    }
+  }
+
+  section {
   .bookshelves-section {
     width: 98%;
   }
+  }
+  section {
   .tools-section {
     width: 98%;
   }
+}
   .book {
     overflow: hidden;
     width: 98%;
