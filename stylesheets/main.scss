@@ -12,6 +12,7 @@ header {
     padding-left: 25px;
     padding-bottom: 25px;
   }
+
   nav img {
     height: 30px;
     float: right;
@@ -19,6 +20,32 @@ header {
     padding-right: 25px;
     padding-bottom: 25px;
   }
+
+  // nav {
+  //   float: right;
+  //   position: absolute;
+  //   left: 99%;
+  // }
+  // ul.child {
+  //   display: none;
+  //   width: 100%!important;
+  //   margin-top: 10px;
+  // }
+  //
+  // ul.parent > li {
+  //   float: left;
+  //   width:20%;
+  //   background: darkgrey;
+  //   padding: 10px;
+  //   border-right: 1px solid #fff;
+  //   text-align: center;
+  //   cursor: pointer;
+  // }
+  //
+  // li {
+  //   list-style-type: none;
+  // }
+// ----------------------------
   input {
     float: right;
     margin-top: 30px;
@@ -35,8 +62,6 @@ main {
 input {
   margin-top: 20px;
   margin-left: 5px;
-
-
 }
 
 h1 {
@@ -82,7 +107,7 @@ aside a:hover {
     float: left;
     width: 48%;
     margin-left: 2%;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
   .info {
     float: left;
@@ -224,5 +249,5 @@ footer {
     input {
       display: none;
     }
-  }
    }
+  }
